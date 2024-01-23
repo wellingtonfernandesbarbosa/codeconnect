@@ -4,3 +4,7 @@
   margin: 3.5em auto;
   gap: 1.68em;
 }
+
+.container div {
+  flex-grow: 1;
+}

@@ -1,0 +1,35 @@
+.container-filtro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.container-filtro ul {
+  display: flex;
+  gap: 1.5em;
+  list-style: none;
+}
+
+.container-filtro ul li {
+  background-color: var(--cinza-claro);
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+  font-family: var(--font);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.container-filtro ul li:first-child::after {
+  content: url('./assets/close.svg');
+  margin-left: 10px;
+}
+
+.container-filtro button {
+  background-color: transparent;
+  border: none;
+  color: var(--cinza-medio);
+  font-family: var(--font);
+  font-size: 18px;
+  cursor: pointer;
+}
