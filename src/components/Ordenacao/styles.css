@@ -1,0 +1,19 @@
+.container-ordenacao{
+  display: flex;
+  justify-content: center;
+  gap: 1.75em;
+  margin-top: 3.5em;
+}
+
+.container-ordenacao-link {
+  list-style: none;
+  font-family: var(--fonte);
+  color: var(--cinza-medio);
+  font-size: 1.375em;
+}
+
+.container-ordenacao-link--ativo {
+  font-weight: 600;
+  color: var(--verde-destaque);
+  text-decoration: underline;
+}
