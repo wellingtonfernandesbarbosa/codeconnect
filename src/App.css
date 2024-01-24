@@ -5,6 +5,16 @@
   gap: 1.68em;
 }
 
-.container div {
+.container-conteudo {
   flex-grow: 1;
+}
+
+.container .lista-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+
+.container .lista-cards li {
+  list-style: none;
 }
